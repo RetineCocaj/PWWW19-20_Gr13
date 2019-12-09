@@ -1,0 +1,52 @@
+body {
+    background-color:#3D585C;
+    color: white;
+}
+
+header {
+    width: 1000px;
+}
+
+.top_header {
+    width: 1000px;
+}
+
+header .left_header {
+    float: left;
+    width: 285px;
+}
+
+.left_header h1, p {
+    margin: 0;
+}
+
+header .right_header {
+    float: right;
+    width: 285px;
+    padding-left: 400px;
+    padding-bottom: 50px;
+    text-align: right;
+}
+
+.right_header a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.right_header button {
+    margin-left: -20px;
+    background-color: darkgray;
+    color: white;
+}
+
+.right_header input {
+    background-color: #4d585C;
+}
+
+:-ms-input-placeholder {
+    color: white;
+}
+
+
+
