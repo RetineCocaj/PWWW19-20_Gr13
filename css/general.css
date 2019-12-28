@@ -5,8 +5,8 @@ body {
 }
 
 header {
+    margin: 0 auto;
     width: 960px;
-    margin-left: 20px;
 }
 
 .top_header {
@@ -93,4 +93,49 @@ nav a:hover {
 
 header img {
     border-bottom: 10px black solid;
+}
+
+footer {
+    background-color: lightgray;
+    width: 960px;
+    margin: 0 auto;
+}
+
+footer .footer_wrapper {
+    padding: 0 20px;
+}
+
+footer hr {
+    margin: 0;
+}
+
+footer h3 {
+    padding-top: 35px;
+    margin-top: 0px;
+    color: black;
+}
+
+footer table {
+    padding-top: 25px;
+}
+
+footer table tr td {
+    width: 230px;
+}
+
+footer a {
+    text-decoration: none;
+    color: darkred;
+}
+
+footer a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+footer .copyright {
+    margin-top: 35px;
+    background-color: black;
+    padding: 20px;
+    color: gray;
 }
