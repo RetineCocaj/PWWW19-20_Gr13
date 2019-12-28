@@ -18,8 +18,7 @@ header .left_header {
     width: 280px;
 }
 
-.left_header h1,
-p {
+.left_header h1, p {
     margin: 5px;
 }
 
@@ -157,4 +156,3 @@ main {
 #news table tbody tr td:last-child {
     padding-right: 0px;
 }
-

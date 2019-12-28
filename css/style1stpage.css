@@ -1,0 +1,28 @@
+.main_section{
+    margin-left: 20px;
+    padding: 20px;
+    width: 920px;
+    background-color: white;
+    color: #666666;
+}
+
+.top_div{
+    width: 960px;
+}
+
+.content_div{
+    width: 250px;
+    display: inline-block;
+    margin: 0 27px;
+    vertical-align: top;
+}
+
+.content_div a{
+    color: #660000;
+    text-decoration: none;
+}
+
+.content_div a:hover {
+    color: #044594;
+    text-decoration: underline;
+}
