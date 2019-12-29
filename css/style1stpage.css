@@ -1,4 +1,3 @@
-.main_section{
 .main_section {
     margin: 0 auto;
     padding: 20px;
@@ -26,8 +25,4 @@
 .content_div a:hover {
     color: #044594;
     text-decoration: underline;
-}
-
-.program_content {
-    visibility: hidden;
 }
