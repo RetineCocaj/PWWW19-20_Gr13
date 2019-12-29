@@ -1,0 +1,23 @@
+main {
+    margin: 0 auto;
+    padding: 20px;
+    width: 920px;
+    background-color: white;
+    color: #666666;
+}
+
+#programs {
+    padding: 0 100px;
+}
+
+.program_title span {
+    float: right;
+}
+
+.program_content {
+    display: none;
+}
+
+.program_show {
+    max-height: 600px;
+}
