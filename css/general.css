@@ -9,6 +9,16 @@ header {
     width: 960px;
 }
 
+a {
+    color: #660000;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #044594;
+    text-decoration: underline;
+}
+
 .top_header {
     width: 100%;
 }
@@ -18,15 +28,13 @@ header .left_header {
     width: 280px;
 }
 
-.left_header h1,
-p {
+.left_header h1, p {
     margin: 5px;
 }
 
 header .right_header {
     float: right;
     width: 280px;
-    padding-left: 394px;
     padding-bottom: 20px;
     text-align: right;
 }
@@ -89,6 +97,8 @@ nav a {
 
 nav a:hover {
     background-color: #111111;
+    text-decoration: none;
+    color: white;
 }
 
 header img {
@@ -99,6 +109,7 @@ footer {
     background-color: lightgray;
     width: 960px;
     margin: 0 auto;
+    margin-bottom: 30px; 
 }
 
 footer .footer_wrapper {
@@ -129,7 +140,7 @@ footer a {
 }
 
 footer a:hover {
-    color: black;
+    color: #044594;
     text-decoration: underline;
 }
 
@@ -138,4 +149,8 @@ footer .copyright {
     background-color: black;
     padding: 20px;
     color: gray;
+}
+
+span{
+    float: right;
 }
