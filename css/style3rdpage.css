@@ -6,12 +6,22 @@
     color: #666666;
 }
 
-.main_section h3 {
+.main_section article h2 {
+    color: black;
+}
+
+p {
+    text-align: justify;
+}
+
+.main_section h2,
+h3 {
     text-align: center;
 }
 
-.first_container {
+.transform_container {
     display: inline-block;
+    padding-bottom: 50px;
 }
 
 .image_container {
@@ -19,10 +29,11 @@
     perspective: 600;
     position: relative;
     width: 300px;
+    margin: 0px 78px;
 }
 
 .image {
-    height: 100%;
+    height: 250px;
     position: absolute;
     transform-style: preserve-3d;
     transition: all 1s ease-in-out;
@@ -50,11 +61,26 @@
     text-align: justify;
 }
 
-.second_container {
-    display: inline-block;
-    padding-left: 150px;
+.video_container {
+    margin-left: 150px;
+    padding-bottom: 50px;
 }
 
-.video_container {
-    position: relative;
+.figure_container p {
+    text-align: center;
+}
+
+.alumnus_container {
+    display: inline-block;
+}
+
+.alumnus_container h4 {
+    text-align: center;
+    color: black;
+}
+
+.alumnus_container img {
+    display: block;
+    border-radius: 150px;
+    margin-left: 25px;
 }

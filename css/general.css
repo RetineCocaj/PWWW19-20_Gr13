@@ -3,6 +3,8 @@ body {
     background-color: #3D585C;
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+    line-height: 1.3;
 }
 
 header {
@@ -106,6 +108,10 @@ nav a:hover {
     background-color: #111111;
     text-decoration: none;
     color: white;
+}
+
+nav a:active {
+    background-color: rgb(96, 116, 115);
 }
 
 header img {
