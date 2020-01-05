@@ -9,9 +9,10 @@
     <link rel="stylesheet" href="../css/style2ndpage.css">
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="/scripts/count-visit.js"></script>
+    <script src="/scripts/save-name.js"></script>
 </head>
 
-<body onload="addVisitForPage('departments-and-programs')">
+<body onload="addVisitForPage('departments-and-programs');greet();">
     <script>
         function showContent(contentId) {
             var hiddenContent = document.getElementById(contentId);
@@ -42,7 +43,7 @@
                 </div>
 
                 <div class="right_header">
-                    A - Z Index | Student Login | Staff Login
+                    <span id="greeting">A - Z Index</span> | Student Login | Staff Login
                     <form>
                         <input type="search" name="search" placeholder="Search Our Website..." />
                         <button type="submit">Search</button>

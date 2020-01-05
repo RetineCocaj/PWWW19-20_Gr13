@@ -48,6 +48,10 @@ header .right_header {
     text-align: right;
 }
 
+#greeting {
+    color: white;
+}
+
 .right_header a {
     text-decoration: none;
     color: white;
