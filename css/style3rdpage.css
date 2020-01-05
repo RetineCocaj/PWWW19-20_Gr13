@@ -10,13 +10,13 @@
     color: black;
 }
 
-p {
-    text-align: justify;
-}
-
 .main_section h2,
 h3 {
     text-align: center;
+}
+
+.footer_wrapper h3 {
+    text-align: left;
 }
 
 .rotate_container {
@@ -85,6 +85,15 @@ h3 {
     display: block;
     border-radius: 150px;
     margin-left: 25px;
+}
+
+.content:before {
+    content: 'The ALUMNI Association';
+    font-weight: bold;
+    font-size: 22px;
+    padding-left: 35%;
+    color: black;
+    text-shadow: gray;
 }
 
 .skew_container {

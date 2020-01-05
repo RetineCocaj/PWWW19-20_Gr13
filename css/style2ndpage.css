@@ -9,6 +9,17 @@ main {
     color: #666666;
 }
 
+table {
+    display: inline-block;
+}
+
+img {
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: gray;
+    padding: 2px;
+}
+
 #programs {
     padding: 0 100px;
 }
@@ -19,8 +30,6 @@ main {
 
 .program_content {
     display: none;
-<<<<<<< HEAD
-=======
 }
 
 .program_show {
@@ -49,5 +58,4 @@ main {
 
 #program_content_6 img {
     float: right;
->>>>>>> 300446a95926be97eb7f9a57376bab2064114493
 }
