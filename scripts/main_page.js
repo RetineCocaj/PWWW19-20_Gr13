@@ -1,5 +1,5 @@
 var myIndex = 0;
-slideshow();
+window.onload = slideshow();
 
 function slideshow() {
     var i;
