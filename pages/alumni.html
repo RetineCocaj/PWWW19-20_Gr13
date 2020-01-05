@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="../css/general.css">
     <link rel="stylesheet" href="../css/style3rdpage.css">
     <script src="/scripts/count-visit.js"></script>
+    <script src="/scripts/save-name.js"></script>
 </head>
 
-<body onload="addVisitForPage('alumni')">
+<body onload="addVisitForPage('alumni');greet();">
     <div class="wrapper">
 
         <header>
@@ -21,7 +22,7 @@
                 </div>
 
                 <div class="right_header">
-                    A - Z Index | Student Login | Staff Login
+                    <span id="greeting">A - Z Index</span> | Student Login | Staff Login
                     <form>
                         <input type="search" name="search" placeholder="Search Our Website..." />
                         <button type="submit">Search</button>

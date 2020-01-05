@@ -40,6 +40,7 @@ input[type="submit"] {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 25px;
+    margin-top: -20px;
 }
 
 #header h1::first-letter {
