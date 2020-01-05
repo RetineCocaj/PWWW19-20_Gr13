@@ -17,14 +17,11 @@ a {
     text-decoration: none;
 }
 
-<<<<<<< HEAD
-=======
 span {
     color: #660000;
     text-decoration: none;
 }
 
->>>>>>> 300446a95926be97eb7f9a57376bab2064114493
 a:hover {
     color: #044594;
     text-decoration: underline;
@@ -123,11 +120,8 @@ header img {
 
 footer {
     background-color: lightgray;
-<<<<<<< HEAD
-=======
     width: 960px;
     margin: 0 auto;
->>>>>>> 300446a95926be97eb7f9a57376bab2064114493
     margin-bottom: 30px;
 }
 
@@ -170,11 +164,7 @@ footer .copyright {
     color: gray;
 }
 
-<<<<<<< HEAD
-span {
-=======
 .copyright span {
     color: gray;
->>>>>>> 300446a95926be97eb7f9a57376bab2064114493
     float: right;
 }
