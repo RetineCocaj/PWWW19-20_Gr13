@@ -2,7 +2,10 @@ main {
     margin: 0 auto;
     padding: 20px;
     width: 920px;
-    background-color: white;
+    background-image: url(../images/geometric-background.jpg);
+    background-size: 960px;
+    background-position: center;
+    background-repeat: repeat-y;
     color: #666666;
 }
 
@@ -16,4 +19,35 @@ main {
 
 .program_content {
     display: none;
+<<<<<<< HEAD
+=======
+}
+
+.program_show {
+    max-height: 600px;
+}
+
+#program_content_1 img {
+    float: left;
+}
+
+#program_content_2 img {
+    float: right;
+}
+
+#program_content_3 img {
+    float: left;
+}
+
+#program_content_4 img {
+    float: right;
+}
+
+#program_content_5 img {
+    float: left;
+}
+
+#program_content_6 img {
+    float: right;
+>>>>>>> 300446a95926be97eb7f9a57376bab2064114493
 }

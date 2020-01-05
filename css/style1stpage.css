@@ -2,8 +2,8 @@
     margin: 0 auto;
     padding: 20px;
     width: 920px;
-    background-color: white;
     color: #666666;
+    background-color: white;
 }
 
 .top_div {
@@ -13,8 +13,13 @@
 .content_div {
     width: 250px;
     display: inline-block;
-    margin: 0 27px;
+    margin: 0 26px;
     vertical-align: top;
+}
+
+.content_div img {
+    padding: 5px;
+    border: 4px lightgrey ridge;
 }
 
 .content_div a {
