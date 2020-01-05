@@ -8,17 +8,21 @@ section h1 {
     text-shadow: 2px 2px gray;
 }
 
-.personal_information input {
+textarea {
+    resize: both;
+}
+
+input {
     border: #161616 solid 1px;
 }
 
-.personal_information input[type="text"] {
+input[type="text"] {
     padding: 9px 33px 9px 10px;
     border-radius: 6px;
     margin-right: 10px;
 }
 
-.personal_information input[type="submit"] {
+input[type="submit"] {
     color: #40aed7;
     padding: 10px;
 }

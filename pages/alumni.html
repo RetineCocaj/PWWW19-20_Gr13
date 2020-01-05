@@ -30,10 +30,10 @@
             <nav>
                 <a href="../index.html">Home</a>
                 <a href="../pages/departments-and-programs.html">Departments & Programs</a>
-                <a href="#">Faculty & Staff</a>
-                <a href="alumni.html">Alumni</a>
+                <a href="../pages/captcha.html">Faculty & Staff</a>
+                <a href="../pages/alumni.html">Alumni</a>
                 <a href="#">About</a>
-                <a href="#">Contact Us</a>
+                <a href="../pages/captcha.html">Contact Us</a>
             </nav>
         </header>
         <main>
@@ -71,13 +71,14 @@
                             <div class="image">
                                 <div class="side"><img src="../images/alumni-offer.jpg" width="250px" height="200px"></div>
                                 <div class="side back">
-                                    <p>Alumni are usually offered exclusive job postings, resume reviews, webinars, networking events, and a variety of online videos and resources—often free of charge.
+                                    <p>Alumni are usually offered exclusive job postings, resume reviews, webinars, networking events, and a variety of-online-videos-and-resources-often-free-of charge.
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <h3>Why you should join our Alumi Comittee? <br>Watch the video below to find the reasons.</h3>
+                    <br>
                     <div class="video_container">
                         <video width="600px" controls>
                     <source src=" ../video/alumni_committee.mp4 " type="video/mp4 " >Your browser does not support the video tag.</video>
@@ -128,6 +129,20 @@
                 </article>
 
                 <article>
+                    <br>
+                    <canvas id="myCanvas" width="920" height="30"></canvas>
+
+                    <script>
+                        var c = document.getElementById("myCanvas");
+                        var ctx = c.getContext("2d");
+
+                        var grd = ctx.createLinearGradient(0, 0, 170, 500);
+                        grd.addColorStop(0, "green");
+                        grd.addColorStop(1, "blue");
+
+                        ctx.fillStyle = grd;
+                        ctx.fillRect(0, 0, 920, 30);
+                    </script>
                     <br><br>
                     <div class="content">
                     </div>

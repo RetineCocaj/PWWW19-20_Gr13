@@ -6,6 +6,12 @@
     background: linear-gradient(to right, rgb(233, 192, 146) 25%, rgb(221, 195, 164) 50%, rgb(154, 175, 164) 75%, rgb(148, 185, 166) 100%);
 }
 
+.main_section h3,
+h2 {
+    color: black;
+    text-align: center;
+}
+
 .top_div {
     width: 960px;
 }
@@ -58,4 +64,16 @@
 .content_div a:hover {
     color: #044594;
     text-decoration: underline;
+}
+
+.text_col {
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+    -webkit-column-gap: 40px;
+    -moz-column-gap: 40px;
+    column-gap: 40px;
+    -webkit-column-rule: 4px dotted;
+    -moz-column-rule: 4px dotted;
+    column-rule: 4px dotted;
 }

@@ -61,6 +61,12 @@ h3 {
 .image .back p {
     padding: 5% 0%;
     text-align: center;
+    word-wrap: break-word;
+}
+
+video {
+    outline: 3px dotted black;
+    outline-offset: 10px;
 }
 
 .video_container {
@@ -93,7 +99,6 @@ h3 {
     font-size: 22px;
     padding-left: 35%;
     color: black;
-    text-shadow: gray;
 }
 
 .skew_container {
