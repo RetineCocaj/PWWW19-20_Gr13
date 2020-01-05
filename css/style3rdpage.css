@@ -19,25 +19,25 @@ h3 {
     text-align: center;
 }
 
-.transform_container {
+.rotate_container {
     display: inline-block;
     padding-bottom: 50px;
 }
 
 .image_container {
-    height: 250px;
+    height: 200px;
     perspective: 600;
     position: relative;
-    width: 300px;
-    margin: 0px 78px;
+    margin-left: 40px;
+    width: 250px;
 }
 
 .image {
-    height: 250px;
+    height: 200px;
     position: absolute;
     transform-style: preserve-3d;
     transition: all 1s ease-in-out;
-    width: 300px;
+    width: 250px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -54,11 +54,13 @@ h3 {
 
 .image .back {
     transform: rotateY(180deg);
+    color: white;
+    background: radial-gradient(rgba(42, 119, 113, 0.801), rgba(24, 85, 85, 0.658), rgba(24, 63, 85, 0.356));
 }
 
 .image .back p {
-    padding: 10% 0%;
-    text-align: justify;
+    padding: 5% 0%;
+    text-align: center;
 }
 
 .video_container {
@@ -83,4 +85,25 @@ h3 {
     display: block;
     border-radius: 150px;
     margin-left: 25px;
+}
+
+.skew_container {
+    position: relative;
+    display: inline-block;
+    margin-left: 100px;
+    height: 400px;
+    width: 700px;
+    transform: skew(-2deg) rotate(2deg);
+    -webkit-transform: skew(-2deg) rotate(2deg);
+    -moz-transform: skew(-2deg) rotate(2deg);
+    overflow: hidden;
+}
+
+.skew_container img {
+    width: 120%;
+    position: absolute;
+    top: 50%;
+    transform: skew(5deg) rotate(-15deg) translateY(-50%);
+    -webkit-transform: skew(5deg) rotate(-15deg) translateY(-50%);
+    -moz-transform: skew(5deg) rotate(-15deg) translateY(-50%);
 }
