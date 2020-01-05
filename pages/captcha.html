@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/captcha.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function allowDrop(ev) {
+            ev.preventDefault();
+        }
+
+        function drag(ev) {
+            ev.dataTransfer.setData("text", ev.target.id);
+        }
+
+        function drop(ev) {
+            ev.preventDefault();
+            var data = ev.dataTransfer.getData("text");
+            ev.target.appendChild(document.getElementById(data));
+            setTimeout(function() {
+                alert("Thank you for confirmation, Redirecting now!")
+                setTimeout(function() {
+                    window.location.replace("application-form.html");
+                }, 1500);
+            }, 1000);
+        }
+    </script>
+    <div class="wrapper fadeInDown">
+        <h2 class="fadeIn first" id="info"> put image inside box to check you are not a robot </h2>
+
+        <div class="fadeIn second" id="container" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+        <img class="fadeIn third" id="drag1" src="../images/openUni.png" draggable="true" ondragstart="drag(event)" width="235px" height="140px">
+    </div>
+</body>
+
+</html>

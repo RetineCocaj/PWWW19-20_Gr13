@@ -4,9 +4,9 @@ body {
     color: white;
 }
 
-header {
-    margin: 0 auto;
+.wrapper {
     width: 960px;
+    margin: 0 auto;
 }
 
 a {
@@ -14,7 +14,7 @@ a {
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     color: #044594;
     text-decoration: underline;
 }
@@ -28,7 +28,8 @@ header .left_header {
     width: 280px;
 }
 
-.left_header h1, p {
+.left_header h1,
+p {
     margin: 5px;
 }
 
@@ -107,9 +108,7 @@ header img {
 
 footer {
     background-color: lightgray;
-    width: 960px;
-    margin: 0 auto;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
 }
 
 footer .footer_wrapper {
@@ -151,6 +150,6 @@ footer .copyright {
     color: gray;
 }
 
-span{
+span {
     float: right;
 }

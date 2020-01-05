@@ -1,0 +1,63 @@
+main {
+    background-color: white;
+    color: rgb(29, 29, 29);
+}
+
+#social-media {
+    display: inline-block;
+    padding: 30px;
+    width: 25%;
+    vertical-align: top;
+}
+
+.s-media {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.s-media:hover {
+    box-shadow: 40px rgb(19, 45, 49);
+    opacity: 0.7;
+}
+
+.s-media img {
+    border-radius: 50%;
+}
+
+#title {
+    display: inline-block;
+    width: 55%;
+    padding: 20px;
+    padding-left: 90px;
+    vertical-align: top;
+}
+
+#title p {
+    font-size: 18px;
+}
+
+#title h1 {
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+#location {
+    display: inline-block;
+    width: 400px;
+    height: 250px;
+    border: 3px solid slategrey;
+}
+
+.contact-info {
+    display: inline-block;
+    width: 300px;
+    padding: 30px 30px 20px 50px;
+}
+
+.contact-info h3 {
+    font-style: oblique;
+    color: rgb(49, 49, 49);
+}

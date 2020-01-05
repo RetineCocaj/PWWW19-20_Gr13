@@ -17,7 +17,3 @@ main {
 .program_content {
     display: none;
 }
-
-.program_show {
-    max-height: 600px;
-}

@@ -28,6 +28,10 @@ main {
     padding-bottom: 15px;
 }
 
+.header_slide {
+    display: none;
+}
+
 .horizontal_break {
     width: 100%;
     background-color: gray;
