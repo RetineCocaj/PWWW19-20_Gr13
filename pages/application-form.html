@@ -18,12 +18,12 @@
         <header>
             <div class="top_header">
                 <div class="left_header">
-                    <h1>Open University</h1>
+                    <h1 style="text-transform: uppercase;">Open University</h1>
                     <p>Free PSD Website Template</p>
                 </div>
 
                 <div class="right_header">
-                    <a href="#">A - Z Index</a> | <a href="#">Student Login</a> | <a href="#">Staff Login</a>
+                    A - Z Index | Student Login | Staff Login
                     <form>
                         <input type="search" name="search" placeholder="Search Our Website..." />
                         <button type="submit">Search</button>
@@ -35,7 +35,7 @@
                 <a href="departments-and-programs.html">Departments & Programs</a>
                 <a href="captcha.html">Faculty & Staff</a>
                 <a href="alumni.html">Alumni</a>
-                <a href="game.html">About</a>
+                <a href="game.html">Game</a>
                 <a href="contact-us.html">Contact Us</a>
             </nav>
         </header>
@@ -46,7 +46,7 @@
             </div>
 
 
-            <table align="center" cellpadding="10">
+            <table cellpadding="10">
 
                 <!----- First Name ---------------------------------------------------------->
                 <tr class="t_row">
@@ -80,7 +80,7 @@
                 <!----- Last Name ---------------------------------------------------------->
                 <tr class="t_row">
                     <td class="td_left">LAST NAME</td>
-                    <td class="td_right"><input type="text" name="Last_Name" maxlength="30" /> (max 30 characters a-z and A-Z)
+                    <td class="td_right"><input type="text" name="Last_Name" maxlength="30" autocomplete="on" /> (max 30 characters a-z and A-Z)
                     </td>
                 </tr>
 
@@ -96,7 +96,7 @@
                 <!----- Email Id ---------------------------------------------------------->
                 <tr class="t_row">
                     <td class="td_left">EMAIL ID</td>
-                    <td class="td_right"><input id="email" onchange="validateEntrye()" type="text" name="Email_Id" maxlength="100" />
+                    <td class="td_right"><input id="email" onchange="validateEntrye()" type="text" name="Email_Id" maxlength="100" autocomplete="off" />
                         <div id="err_email"></div>
                         <script>
                             function checkUserEntrye() {
@@ -127,7 +127,7 @@
                 <tr class="t_row">
                     <td class="td_left">MOBILE NUMBER</td>
                     <td class="td_right">
-                        <input type="text" id="number" name="Mobile_Number" onkeyup="phonenumber(this.value)" maxlength="11" placeholder="###-###-###" /> (9 digit number)
+                        <input type="text" id="number" name="Mobile_Number" onkeyup="phonenumber(this.value)" maxlength="11" placeholder="###-###-###" autocomplete="off" /> (9 digit number)
                         <script>
                             function phonenumber(inputtxt) {
                                 var phoneno = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{3})$/;
@@ -169,7 +169,7 @@
                 <tr class="t_row">
                     <td class="td_left">PIN CODE</td>
                     <td class="td_right">
-                        <input type="text" id="Pin_Code" name="Pin_Code" maxlength="6" onkeypress="validatePinCode(this.value)" /> (6 digit number)
+                        <input type="text" id="Pin_Code" name="Pin_Code" maxlength="6" onkeypress="validatePinCode(this.value)" autocomplete="off" /> (6 digit number)
                         <script>
                             function validatePinCode(input) {
                                 if (input.length == 6 && typeof input == 'number') {
@@ -200,14 +200,14 @@
                     <td class="td_left">QUALIFICATION <br /><br /><br /><br /><br /><br /><br /></td>
 
                     <td class="td_right">
-                        <table>
+                        <table id="qualify">
 
                             <tr>
-                                <td align="center"><b>Sl.No.</b></td>
-                                <td align="center"><b>Examination</b></td>
-                                <td align="center"><b>Board</b></td>
-                                <td align="center"><b>Percentage</b></td>
-                                <td align="center"><b>Year of Passing</b></td>
+                                <td><b>Sl.No.</b></td>
+                                <td><b>Examination</b></td>
+                                <td><b>Board</b></td>
+                                <td><b>Percentage</b></td>
+                                <td><b>Year of Passing</b></td>
                             </tr>
 
                             <tr>
@@ -245,8 +245,8 @@
                             <tr>
                                 <td></td>
                                 <td></td>
-                                <td align="center">(10 char max)</td>
-                                <td align="center">(upto 2 decimal)</td>
+                                <td>(10 char max)</td>
+                                <td>(upto 2 decimal)</td>
                             </tr>
                         </table>
 
@@ -283,7 +283,7 @@
 
                 <!----- Submit and Reset ------------------------------------------------->
                 <tr class="t_row">
-                    <td colspan="2" align="center">
+                    <td colspan="2">
                         <input type="submit" value="Submit">
 
                     </td>
@@ -300,76 +300,76 @@
                 <table>
                     <tbody>
                         <tr>
-                            <td><a href="#">&raquo; Visiting the University</a></td>
-                            <td><a href="#">&raquo; Academic Advisory</a></td>
-                            <td><a href="#">&raquo; Athletics</a></td>
-                            <td><a href="#">&raquo; Departments & Programs</a></td>
+                            <td><span>&raquo; Visiting the University</span></td>
+                            <td><span>&raquo; Academic Advisory</span></td>
+                            <td><span>&raquo; Athletics</span></td>
+                            <td><span>&raquo; Departments & Programs</span></td>
                         </tr>
                         <tr>
-                            <td><a href="#">&raquo; Maps and Directions</a></td>
-                            <td><a href="#">&raquo; Academic Assistance</a></td>
-                            <td><a href="#">&raquo; Capmus Life At a Glance</a></td>
-                            <td><a href="#">&raquo; Fellowships</a></td>
+                            <td><span>&raquo; Maps and Directions</span></td>
+                            <td><span>&raquo; Academic Assistance</span></td>
+                            <td><span>&raquo; Capmus Life At a Glance</span></td>
+                            <td><span>&raquo; Fellowships</span></td>
                         </tr>
                         <tr>
-                            <td><a href="#">&raquo; Undergraduate Courses</a></td>
-                            <td><a href="#">&raquo; Academic Calendars</a></td>
-                            <td><a href="#">&raquo; Campus Recreation</a></td>
-                            <td><a href="#">&raquo; Finals Schedules</a></td>
+                            <td><span>&raquo; Undergraduate Courses</span></td>
+                            <td><span>&raquo; Academic Calendars</span></td>
+                            <td><span>&raquo; Campus Recreation</span></td>
+                            <td><span>&raquo; Finals Schedules</span></td>
                         </tr>
                         <tr>
-                            <td><a href="#">&raquo; Graduate Courses</a></td>
-                            <td><a href="#">&raquo; Academic Office</a></td>
-                            <td><a href="#">&raquo; Campus Safety & Security</a></td>
-                            <td><a href="#">&raquo; Financial Aid</a></td>
+                            <td><span>&raquo; Graduate Courses</span></td>
+                            <td><span>&raquo; Academic Office</span></td>
+                            <td><span>&raquo; Campus Safety & Security</span></td>
+                            <td><span>&raquo; Financial Aid</span></td>
                         </tr>
                         <tr>
-                            <td><a href="#">&raquo; Postgraduate Research</a></td>
-                            <td><a href="#">&raquo; Administration</a></td>
-                            <td><a href="#">&raquo; Class Schedules</a></td>
-                            <td><a href="#">&raquo; Fitness and Recreation Facilities</a></td>
+                            <td><span>&raquo; Postgraduate Research</span></td>
+                            <td><span>&raquo; Administration</span></td>
+                            <td><span>&raquo; Class Schedules</span></td>
+                            <td><span>&raquo; Fitness and Recreation Facilities</span></td>
                         </tr>
                         <tr>
-                            <td><a href="#">&raquo; Postgraduate Taught</a></td>
-                            <td><a href="#">&raquo; Adult Learners</a></td>
-                            <td><a href="#">&raquo; Counselling Center</a></td>
-                            <td><a href="#">&raquo; Global Learning</a></td>
+                            <td><span>&raquo; Postgraduate Taught</span></td>
+                            <td><span>&raquo; Adult Learners</span></td>
+                            <td><span>&raquo; Counselling Center</span></td>
+                            <td><span>&raquo; Global Learning</span></td>
                         </tr>
                         <tr>
-                            <td><a href="#">&raquo; International Students</a></td>
-                            <td><a href="#">&raquo; Academic Office</a></td>
-                            <td><a href="#">&raquo; Alumni Chapters</a></td>
-                            <td><a href="#">&raquo; Graduate</a></td>
+                            <td><span>&raquo; International Students</span></td>
+                            <td><span>&raquo; Academic Office</span></td>
+                            <td><span>&raquo; Alumni Chapters</span></td>
+                            <td><span>&raquo; Graduate</span></td>
                         </tr>
                         <tr>
-                            <td><a href="#">&raquo; Lifelong Learning</a></td>
-                            <td><a href="#">&raquo; Alumni Events</a></td>
-                            <td><a href="#">&raquo; Department Directory</a></td>
-                            <td><a href="#">&raquo; Graduate Admissions</a></td>
+                            <td><span>&raquo; Lifelong Learning</span></td>
+                            <td><span>&raquo; Alumni Events</span></td>
+                            <td><span>&raquo; Department Directory</span></td>
+                            <td><span>&raquo; Graduate Admissions</span></td>
                         </tr>
                         <tr>
-                            <td><a href="#">&raquo; Graduate Health Services</a></td>
-                            <td><a href="#">&raquo; International Students</a></td>
-                            <td><a href="#">&raquo; Residential Colleges</a></td>
-                            <td><a href="#">&raquo; Student Research</a></td>
+                            <td><span>&raquo; Graduate Health Services</span></td>
+                            <td><span>&raquo; International Students</span></td>
+                            <td><span>&raquo; Residential Colleges</span></td>
+                            <td><span>&raquo; Student Research</span></td>
                         </tr>
                         <tr>
-                            <td><a href="#">&raquo; Graduate Housing</a></td>
-                            <td><a href="#">&raquo; Intramural Sports</a></td>
-                            <td><a href="#">&raquo; School and Colleges</a></td>
-                            <td><a href="#">&raquo; Students with Disabilities</a></td>
+                            <td><span>&raquo; Graduate Housing</span></td>
+                            <td><span>&raquo; Intramural Sports</span></td>
+                            <td><span>&raquo; School and Colleges</span></td>
+                            <td><span>&raquo; Students with Disabilities</span></td>
                         </tr>
                         <tr>
-                            <td><a href="#">&raquo; Graduate Programs</a></td>
-                            <td><a href="#">&raquo; Language Resources</a></td>
-                            <td><a href="#">&raquo; Student Activities</a></td>
-                            <td><a href="#">&raquo; Transfer Students</a></td>
+                            <td><span>&raquo; Graduate Programs</span></td>
+                            <td><span>&raquo; Language Resources</span></td>
+                            <td><span>&raquo; Student Activities</span></td>
+                            <td><span>&raquo; Transfer Students</span></td>
                         </tr>
                         <tr>
-                            <td><a href="#">&raquo; Graduate Student Association</a></td>
-                            <td><a href="#">&raquo; Maps and Directions</a></td>
-                            <td><a href="#">&raquo; Student Affairs</a></td>
-                            <td><a href="#">&raquo; Undergraduate Admissions</a></td>
+                            <td><span>&raquo; Graduate Student Association</span></td>
+                            <td><span>&raquo; Maps and Directions</span></td>
+                            <td><span>&raquo; Student Affairs</span></td>
+                            <td><span>&raquo; Undergraduate Admissions</span></td>
                         </tr>
                     </tbody>
                 </table>
