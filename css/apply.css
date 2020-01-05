@@ -4,12 +4,9 @@ section {
     margin: 0;
 }
 
-section h1 {
-    text-shadow: 2px 2px gray;
-}
-
-textarea {
-    resize: both;
+#header {
+    margin-top: -20px;
+    padding-top: 0;
 }
 
 input {
@@ -20,11 +17,13 @@ input[type="text"] {
     padding: 9px 33px 9px 10px;
     border-radius: 6px;
     margin-right: 10px;
+    width: 55%;
 }
 
 input[type="submit"] {
     color: #40aed7;
     padding: 10px;
+    width: 200px;
 }
 
 #header {
@@ -36,12 +35,63 @@ input[type="submit"] {
 
 #header h1 {
     margin: 0;
+    margin-top: -20px;
     font-size: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 25px;
 }
 
-#header h1::first-letter {
-    font-size: 30px;
+.labels {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+}
+
+.fields {
+    width: 65%;
+    display: inline-block;
+    text-align: center;
+}
+
+.fields_input {
+    width: 80%;
+}
+
+.text_under {
+    width: 80%;
+}
+
+.label_front {
+    width: 80%;
+}
+
+.t_row {
+    width: 80%;
+}
+
+.td_left {
+    width: 25%;
+    text-align: right;
+    padding-right: 35px;
+}
+
+.td_right {
+    width: 80%;
+}
+
+#err_name {
+    display: contents;
+}
+
+#err_email {
+    display: contents;
+}
+
+.all_center {
+    text-align: center;
+}
+
+#komenti {
+    width: 60%;
 }
