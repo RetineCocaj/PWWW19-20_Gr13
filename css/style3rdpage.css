@@ -1,0 +1,60 @@
+.main_section {
+    margin: 0 auto;
+    padding: 20px;
+    width: 920px;
+    background-color: white;
+    color: #666666;
+}
+
+.main_section h3 {
+    text-align: center;
+}
+
+.first_container {
+    display: inline-block;
+}
+
+.image_container {
+    height: 250px;
+    perspective: 600;
+    position: relative;
+    width: 300px;
+}
+
+.image {
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.image:hover {
+    transform: rotateY(180deg);
+}
+
+.image .side {
+    backface-visibility: hidden;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.image .back {
+    transform: rotateY(180deg);
+}
+
+.image .back p {
+    padding: 10% 0%;
+    text-align: justify;
+}
+
+.second_container {
+    display: inline-block;
+    padding-left: 150px;
+}
+
+.video_container {
+    position: relative;
+}

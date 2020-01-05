@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="utf-8">
+    <title>Open University | Alumni</title>
+    <link rel="import" href="../index.html">
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/style3rdpage.css">
+    <style>
+        .corner_container {
+            display: inline-block;
+            width: 240px;
+            height: 200px;
+        }
+        
+        .image_container {
+            width: 240px;
+            height: 200px;
+            position: relative;
+        }
+        
+        .top_corner {
+            position: absolute;
+            height: 200px;
+            width: 240px;
+            animation: topCornerAnimation 2s;
+        }
+        
+        .right_corner {
+            position: absolute;
+            right: 0px;
+            width: 10px;
+            height: 0px;
+        }
+        
+        .bottom_corner {
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            width: 0px;
+            height: 10px;
+        }
+        
+        .left_corner {
+            position: absolute;
+            bottom: 0px;
+            width: 10px;
+            height: 0px;
+        }
+        
+        img:hover .top_corner:after {
+            animation: topCornerAnimation 2s;
+        }
+        
+        @keyframes topCornerAnimation {
+            0% {
+                background-color: brown;
+                width: 0px;
+                height: 10px;
+            }
+            100% {
+                background-color: brown;
+                width: 240px;
+                height: 10px;
+            }
+        }
+        
+        @keyframes rightCornerAnimation {
+            0% {
+                background-color: brown;
+                width: 10px;
+                height: 0px;
+            }
+            100% {
+                background-color: brown;
+                width: 10px;
+                height: 200px;
+            }
+        }
+        
+        @keyframes bottomCornerAnimation {
+            0% {
+                background-color: brown;
+                width: 0px;
+                height: 10px;
+            }
+            100% {
+                background-color: brown;
+                width: 240px;
+                height: 10px;
+            }
+        }
+        
+        @keyframes leftCornerAnimation {
+            0% {
+                background-color: brown;
+                width: 10px;
+                height: 0px;
+            }
+            100% {
+                background-color: brown;
+                width: 10px;
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="top_header">
+            <div class="left_header">
+                <h1 style="text-transform: uppercase;">Open University</h1>
+                <p>Free PSD Website Template</p>
+            </div>
+
+            <div class="right_header">
+                <a href="#">A - Z Index</a> | <a href="#">Student Login</a> | <a href="#">Staff Login</a>
+                <form>
+                    <input type="search" name="search" placeholder="Search Our Website..." />
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="../pages/departments-and-programs.html">Departments & Programs</a>
+            <a href="#">Faculty & Staff</a>
+            <a href="alumni.html">Alumni</a>
+            <a href="#">About</a>
+            <a href="#">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <section class="main_section">
+            <h3>ALUMNI Community</h3>
+            <!--<div class="first_container">
+                <div class="image_container">
+                    <div class="image">
+                        <div class="side"><img src="../images/alumni-your-benefits.jpg" width="300px" height="250px"></div>
+                        <div class="side back">
+                            <p>You can access a range of benefits and services as an alumnus of the University of London. This includes alumni of the independent member institutions, the School of Advanced Study and the University of London Institute in
+                                Paris. It helps you stay connected with the University through regional clubs, affinity groups, and volunteer networks.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="second_container">
+                <div class="video_container">
+                    <video width="300px" height="250px" controls>
+                    <source src="../video/alumni_committee.mp4" type="video/mp4" >Your browser does not support the video tag.</video>
+                </div>
+            </div>-->
+
+            <div class="corner_container">
+                <div id="image_container">
+                    <div class="top_corner"></div>
+                    <div class="right_corner"></div>
+                    <div class="bottom_corner"></div>
+                    <div class="left_corner"></div>
+                    <div><img src="../images/alumni-your-benefits.jpg" width="240px" height="200px"></div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer_wrapper">
+            <h3>Quickly Find What You Are Looking For</h3>
+            <hr>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><span>&raquo; Visiting the University</span></td>
+                        <td><span>&raquo; Academic Advisory</span></td>
+                        <td><span>&raquo; Athletics</span></td>
+                        <td><span>&raquo; Departments & Programs</span></td>
+                    </tr>
+                    <tr>
+                        <td><span>&raquo; Maps and Directions</span></td>
+                        <td><span>&raquo; Academic Assistance</span></td>
+                        <td><span>&raquo; Capmus Life At a Glance</span></td>
+                        <td><span>&raquo; Fellowships</span></td>
+                    </tr>
+                    <tr>
+                        <td><span>&raquo; Undergraduate Courses</span></td>
+                        <td><span>&raquo; Academic Calendars</span></td>
+                        <td><span>&raquo; Campus Recreation</span></td>
+                        <td><span>&raquo; Finals Schedules</span></td>
+                    </tr>
+                    <tr>
+                        <td><span>&raquo; Graduate Courses</span></td>
+                        <td><span>&raquo; Academic Office</span></td>
+                        <td><span>&raquo; Campus Safety & Security</span></td>
+                        <td><span>&raquo; Financial Aid</span></td>
+                    </tr>
+                    <tr>
+                        <td><span>&raquo; Postgraduate Research</span></td>
+                        <td><span>&raquo; Administration</span></td>
+                        <td><span>&raquo; Class Schedules</span></td>
+                        <td><span>&raquo; Fitness and Recreation Facilities</span></td>
+                    </tr>
+                    <tr>
+                        <td><span>&raquo; Postgraduate Taught</span></td>
+                        <td><span>&raquo; Adult Learners</span></td>
+                        <td><span>&raquo; Counselling Center</span></td>
+                        <td><span>&raquo; Global Learning</span></td>
+                    </tr>
+                    <tr>
+                        <td><span>&raquo; International Students</span></td>
+                        <td><span>&raquo; Academic Office</span></td>
+                        <td><span>&raquo; Alumni Chapters</span></td>
+                        <td><span>&raquo; Graduate</span></td>
+                    </tr>
+                    <tr>
+                        <td><span>&raquo; Lifelong Learning</span></td>
+                        <td><span>&raquo; Alumni Events</span></td>
+                        <td><span>&raquo; Department Directory</span></td>
+                        <td><span>&raquo; Graduate Admissions</span></td>
+                    </tr>
+                    <tr>
+                        <td><span>&raquo; Graduate Health Services</span></td>
+                        <td><span>&raquo; International Students</span></td>
+                        <td><span>&raquo; Residential Colleges</span></td>
+                        <td><span>&raquo; Student Research</span></td>
+                    </tr>
+                    <tr>
+                        <td><span>&raquo; Graduate Housing</span></td>
+                        <td><span>&raquo; Intramural Sports</span></td>
+                        <td><span>&raquo; School and Colleges</span></td>
+                        <td><span>&raquo; Students with Disabilities</span></td>
+                    </tr>
+                    <tr>
+                        <td><span>&raquo; Graduate Programs</span></td>
+                        <td><span>&raquo; Language Resources</span></td>
+                        <td><span>&raquo; Student Activities</span></td>
+                        <td><span>&raquo; Transfer Students</span></td>
+                    </tr>
+                    <tr>
+                        <td><span>&raquo; Graduate Student Association</span></td>
+                        <td><span>&raquo; Maps and Directions</span></td>
+                        <td><span>&raquo; Student Affairs</span></td>
+                        <td><span>&raquo; Undergraduate Admissions</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; 2019 - All Rights Reserved - Domain Name <span><mark style="background-color: rgb(111, 121, 120);">Template by OS Templates</mark></span></p>
+        </div>
+    </footer>
+</body>
+
+</html>
